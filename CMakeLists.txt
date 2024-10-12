@@ -1,3 +1,3 @@
-idf_component_register(SRCS "TCP.c"
-                    INCLUDE_DIRS "."
-)
+idf_component_register(SRCS "MFRC522.c"
+                       INCLUDE_DIRS "."
+                       PRIV_REQUIRES driver)
